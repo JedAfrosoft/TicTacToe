@@ -299,7 +299,7 @@ public class GameLogic implements ActionListener {
             }
         }
 
-        markToBePut="O"; //This will then be changed to X by another line of code later on. I did this out of laziness
+        markToBePut="O"; //This will then be changed to X by another line of code later in "setTextAndDoWinCheck" method. I did this out of laziness
         matchCounter=0;
         isItDraw=true;
     }
